@@ -1,4 +1,4 @@
-class jogador{
+class Jogador{
     constructor(id, nome, pontos, status = true){
         this.id = id;
         this.nome = nome;
@@ -16,3 +16,6 @@ class jogador{
             -------------------------`)
     }
 }
+
+let jogador1 = new Jogador(1, "Zé", 578);
+console.table(jogador1);
